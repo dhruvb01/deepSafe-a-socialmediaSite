@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
     cors:{
-        origin:'*',
+        origin:'https://deepsafe-a-socialmediasite-1.onrender.com',
         methods:['GET','POST']
     }
 })

@@ -14,4 +14,4 @@ export const readFileAsDataURL = (file) => {
     reader.readAsDataURL(file);
   })
 }
-export const baseurl='http://localhost:8000'
+export const baseurl='https://deepsafe-a-socialmediasite.onrender.com/'
